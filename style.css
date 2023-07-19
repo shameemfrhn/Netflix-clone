@@ -297,6 +297,25 @@
     
     
     }
+.container {
+  width: 100%;
+  max-width: 1200px; /* Set a maximum width if necessary */
+}
+/* CSS for desktops and larger screens */
+@media screen and (min-width: 992px) {
+  /* Add your desktop-specific styles here */
+}
+
+/* CSS for tablets and smaller screens */
+@media screen and (max-width: 991px) {
+  /* Add your tablet-specific styles here */
+}
+
+/* CSS for smartphones and smaller screens */
+@media screen and (max-width: 767px) {
+  /* Add your smartphone-specific styles here */
+}
+
     .row{
     border-top: 6px solid #333;
     
